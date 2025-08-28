@@ -36,7 +36,7 @@ export function informacion(tarea) {
 
   const spanIntegrantes = document.createElement("span");
   spanIntegrantes.className = "texto-integrantes";
-  spanIntegrantes.innerText = "Integrantes";
+  spanIntegrantes.innerText = "Alumnos";
 
   const divIntegrantes = document.createElement("div");
   divIntegrantes.className = "div-integrantes";
