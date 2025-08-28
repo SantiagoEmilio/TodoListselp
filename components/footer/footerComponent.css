@@ -1,4 +1,5 @@
 footer {
+     background-color: rgb(255, 248, 239);
     margin-top: 2rem;
     text-align: center;
     font-family: Arial, sans-serif;
@@ -7,7 +8,7 @@ footer {
 
 footer hr {
     border: none;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ffffff;
     margin-bottom: 1rem;
 }
 

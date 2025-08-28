@@ -4,7 +4,6 @@ export function informacion(tarea) {
   const div = document.createElement("div");
   div.className = "contenedorInformacion";
 
-  // Botones
   const divBotones = document.createElement("div");
   divBotones.className = "div-botones";
 
@@ -18,7 +17,6 @@ export function informacion(tarea) {
 
   divBotones.append(btnTarea, btnArchivados);
 
-  // Información de la tarea
   const divInformacion = document.createElement("div");
   divInformacion.className = "div-informacion";
 
@@ -50,11 +48,9 @@ export function informacion(tarea) {
     spanIntegrantes
   );
 
-  // 🔹 Crear el formulario y ocultarlo al inicio
   const formTarea = formularioTarea();
   formTarea.style.display = "none";
 
-  // 🔹 Mostrar/ocultar el formulario al presionar +Tarea
   btnTarea.addEventListener("click", () => {
     formTarea.style.display =
       formTarea.style.display === "none" ? "block" : "none";
